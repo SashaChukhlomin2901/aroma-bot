@@ -604,7 +604,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     """Запуск бота"""
     # Замените YOUR_TOKEN на реальный токен бота
-    application = Application.builder().token("8072975421:AAGZAFAoBxcgztMgJMSCaengH5ciV2waVSo").build()
+    application = Application.builder().token("").build()
     
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
